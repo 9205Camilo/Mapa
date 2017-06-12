@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+    /* ====================================
+    TABLE OF CONTENTS
+    1. Fonts 
+    2. General
+    3. Splash
+    4. Header
+    5. First Page
+    6. Informacion
+    ==================================== */
+
+    /* ==================================== 1. Fonts ==================================== */
+
+    @font-face {
+    	font-family: 'Roboto';
+    	src: url('fonts/Roboto-Light.eot');
+    	src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    	url('fonts/Roboto-Light.woff') format('woff'),
+    	url('fonts/Roboto-Light.ttf') format('truetype');
+    	font-weight: 300;
+    	font-style: normal;
+    }
+
+    @font-face {
+    	font-family: 'Roboto';
+    	src: url('fonts/Roboto-Regular.eot');
+    	src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    	url('fonts/Roboto-Regular.woff2') format('woff2'),
+    	url('fonts/Roboto-Regular.woff') format('woff'),
+    	url('fonts/Roboto-Regular.ttf') format('truetype');
+    	font-weight: 400;
+    	font-style: normal;
+    }
+
+    @font-face {
+    	font-family: 'Roboto';
+    	src: url('fonts/roboto-bold.eot');
+    	src: url('fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+    	url('fonts/roboto-bold.woff2') format('woff2'),
+    	url('fonts/roboto-bold.woff') format('woff'),
+    	url('fonts/roboto-bold.ttf') format('truetype');
+    	font-weight: 700;
+    	font-style: normal;
+    }
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+  font-family: "Corisande Bold";
+  src: url(../fonts/Corisande%20Bold_4.ttf) format("truetype");
+   
+}
+@font-face {
+  font-family: "Corisande regular";
+  src: url(../fonts/Corisande_4.ttf);
+}
+@font-face {
+  font-family:"Gothic LT";
+  src: url(../fonts/TradeGothicLTStd-Bd2.otf);
+}
+@font-face {
+    font-family: "Gothic LT light";
+  src: url(../fonts/TradeGothicLTStd.otf);
+}
+
+@font-face {
+    font-family: "TradeGothicLTStd-Cn18";
+  src: url(../fonts/TradeGothicLTStd-Cn18.otf);
+}
+    /* ===================================== 2. General ===================================== */
+
+    * {
+    	-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    	margin: 0;
+    	padding: 0;
+    }
+
+    body {
+    	color: #666;
+    	font-family: 'Roboto';
+    	font-weight: 400;
+    	font-size: 16px;
+    	-webkit-font-smoothing: antialiased;
+    	text-rendering: optimizeLegibility;
+    }
+
+/*=========================================================================Acordeon==========================*/
+
+#accordion {
+	list-style: none;
+}
+#accordion li {
+    border-bottom: thin solid rgba(148,186,173,.3);
+}
+.nombre_formula{  
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #40A2CE;
+	color:white;
+	cursor: pointer;
+    position: relative;
+}
+.nombre_formula.active2 {
+    background: white;
+    color: #40A2CE;
+}
+
+#accordion .formula{
+   display: none;
+   text-align:left;
+   position: relative;
+	 padding-left: 25px;
+	 padding-bottom: 10px;
+}
+
+
+#accordion .arrow {
+    display: block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#accordion .arrow:before {
+    content:"";
+    display: block;
+    height: 1px;
+    background: #CACACA;
+    transition: all .5s linear; 
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translate(7px) rotate(-40deg);
+    width: 50%;
+}
+#accordion .arrow:after{
+    content:"";
+    display: block;
+    height: 1px;
+    background: #CACACA;
+    transition: all .5s linear;
+    
+    position: absolute;
+    top:50%;
+    
+    left: 0;
+    transform: translate(0px) rotate(40deg);
+    width: 50%;
+    
+}
+
+#accordion .active2 a:before {
+    background: #CACACA;
+   transform: rotate(45deg);
+width: 100%;
+    
+}
+    
+#accordion .active2 a:after {
+    background: #CACACA;
+    transform: rotate(-45deg);
+    width: 100%;
+}
+
+#accordion .btnacordeon{
+  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+}
+
+#accordion .divisor{
+  height: 1px;
+  display:inline-block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 50%;
+  text-align: center;
+  border: none;
+  background: #94BAAD;
+}
+
+.imagenes{
+    width: 100%;
+    height: 100%;
+}
+
+.pasoespf{
+  font-size: 18px
+}
+
+.texto{
+    font-family: 'Arial';
+    font-size: 14px;
+    color: #333;
+    padding: 5px;
+}
+
+.lista{
+list-style: circle; 
+}

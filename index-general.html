@@ -1,0 +1,855 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Convenios</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/respond.min.js"></script>
+    <script type="text/javascript" src="js/jquery.rwdImageMaps.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="_/css/style.css">
+</head>
+<!-- INICIO CONTENIDO -->
+
+<body>
+    <!-- BANNER -->
+    <!--<div class="banner-wrapper">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <img src="imgs/generalidades_mii.png" style="width:100%;" />
+            </div>
+        </div>
+    </div> -->
+    <!-- MENU DE NAVEGACION -->
+    <div class="tab-wrapper">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="tabbable">
+                    <ul class="nav nav-pills dos-lineas">
+                        <li class="active">
+                            <a href="#america" data-toggle="tab" id="bien">
+                                <div class="text-center"><span style="font-size:3.0em" class="fa fa-plane" aria-hidden="true"></span>
+                                    <br/> Convenios América</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#euroasia" data-toggle="tab" id="doce">
+                                <div class="text-center"><span style="font-size:3.0em" class="fa fa-plane" aria-hidden="true"></span>
+                                    <br/>Convenios Europa y Asia</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- CONTENIDO DE LAS PILLS -->
+                    <div class="tab-content content-1">
+                        <!-- %%%%%%% PILL 1 %%%%%%% -->
+                        <div class="tab-pane active" id="america">
+
+                            <p></p>
+                            <div class="carousel_wrapper">
+                                <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+
+                                    <div class="carousel-inner mapaResponsive">
+                                        <div class="item active carousel-fade" id="item1">
+
+                                            <img class="lazyload" src="imgs/america.png" alt="" width="1150" height="600" frameborder="0" usemap="#map_1" border="0" />
+                                            <map name="map_1">
+                                                <!-- 1. CANADA -->
+                                                <area shape="rect" coords="430,74,478,120" href="#;" data-toggle="modal" data-target="#modal_1" alt="Instrucciones" />
+                                                <!-- 2. EE.UU -->
+                                                <area shape="rect" coords="465,172,515,220" href="#;" data-toggle="modal" data-target="#modal_2" alt="Instrucciones" />
+                                                <!-- 3. MEXICO -->
+                                                <area shape="rect" coords="465,262,511,310" href="#;" data-toggle="modal" data-target="#modal_3" alt="Instrucciones" />
+                                                <!-- 4. SAN VICENTE Y LAS GRANADINAS -->
+                                                <area shape="rect" coords="622,258,670,305" href="#;" data-toggle="modal" data-target="#modal_4" alt="Instrucciones" />
+                                                <!-- 5. COSTA RICA -->
+                                                <area shape="rect" coords="515,300,562,347" href="#;" data-toggle="modal" data-target="#modal_5" alt="Instrucciones" />
+                                                <!-- 6. VENEZUELA -->
+                                                <area shape="rect" coords="605,318,652,365" href="#;" data-toggle="modal" data-target="#modal_6" alt="Instrucciones" />
+                                                <!-- 7. PERU -->
+                                                <area shape="rect" coords="558,371,605,418" href="#;" data-toggle="modal" data-target="#modal_7" alt="Instrucciones" />
+                                                <!-- 8. BRASIL -->
+                                                <area shape="rect" coords="648,388,695,435" href="#;" data-toggle="modal" data-target="#modal_8" alt="Instrucciones" />
+                                                <!-- 9. PARAGUAY -->
+                                                <area shape="rect" coords="605,429,652,476" href="#;" data-toggle="modal" data-target="#modal_9" alt="Instrucciones" />
+                                                <!-- 10. CHILE -->
+                                                <area shape="rect" coords="558,483,604,530" href="#;" data-toggle="modal" data-target="#modal_10" alt="Instrucciones" />
+                                                <!-- 11. ARGENTINA -->
+                                                <area shape="rect" coords="614,483,661,530" href="#;" data-toggle="modal" data-target="#modal_11" alt="Instrucciones" />
+                                            </map>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p></p>
+                                <div class="acoresponsive">
+                                    <ul id="accordion">
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/canada.png">&nbsp; Canadá</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <ul>
+                                                 <li>Universidad de Sherbrooke.</li>
+                                                </ul>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/USA.png">&nbsp; EE.UU</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <ul>
+                            											<li>Health Science Center at San Antonio, University of Texas.</li>
+																									<li> Atlantic International University of Honolulu.</li>
+                        												</ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/mexico.png">&nbsp; México</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <ul>
+                            											<li>Universidad Nacional Autónoma de México.</li>
+                            											<li>Universidad Nacional Autónoma de México (Convenio Específico).</li>
+                            											<li>Universidad Pedagógica de Durango.</li>
+                            											<li>Universidad de León.</li>
+                            											<li>Universidad Autónoma de Aguas Calientes.</li>
+                            											<li>Escuela de Arte y Moda de Bajio - EAMODA.</li>
+                        												</ul>
+                                            </div>
+                                        </li>
+																			  <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/sanVicente.png">&nbsp; San Vicente y las Granadinas</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <ul>
+																										<li>Richmond Vale Academy.</li>
+																								</ul>
+                                            </div>
+                                        </li>
+																			  <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/Costarica.png">&nbsp; Costa Rica</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <ul>
+                            											<li>Universidad Santa Paula.</li>
+                            											<li>Earth University.</li>
+                        												 </ul>
+                                            </div>
+                                        </li>
+																				<li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/venezuela.png">&nbsp; Venezuela</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <ul>
+                            											<li>Universidad de los Andes.</li>
+                            											<li>Universidad Arturo Michelena.</li>
+                        												 </ul>
+                                            </div>
+                                        </li>
+																			  <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/peru.png">&nbsp; Perú</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <ul>
+                            											<li>Universidad Nacional de Trujillo.</li>
+                            											<li>Centro de Altos Estudios de la Moda - CEAM.</li>
+                            											<li> Universidad Católica Sedes Sapientiae.</li>
+                        												 </ul>
+                                            </div>
+                                        </li>
+																			   <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/brasil.png">&nbsp; Brasil</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <ul>
+                            											<li>Escuela de Ingeniería "San Carlos" de la Universidad de Sao Paulo.</li>
+                            											<li>Universidad Federal de Minas Gerais.</li>
+                            											<li>Instituto Euroamericano de Educación y Motricidad Humana.</li>
+                            											<li>Universidad Estatal de Campinas.</li>
+                        												</ul>
+                                            </div>
+                                        </li>
+																			   <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/paraguay.png">&nbsp; Paraguay</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <ul>
+                            												<li>Universidad de la Integración de las Américas.</li>
+                            												<li>Universidad de la Integración de las Américas (Convenio Específico).</li>
+                        												 </ul>
+                                            </div>
+                                        </li>
+																			   <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/chile.png">&nbsp; Chile</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <ul>
+                            												<li>Universidad Bolivariana de Chile.</li>
+                            												<li>Universidad de Valparaiso.</li>
+                            												<li>Universidad Bernardo O`Higgins.</li>
+                            												<li>Universidad Bernardo O`Higgins (Convenio Específico).</li>
+                            												<li>Universidad Central de Chile.</li>
+                            												<li>Universidad Andrés Bello.</li>
+                            												<li>Pontifica Universidad Católica de Valparaiso.</li>
+																								 </ul>
+                                            </div>
+                                        </li>
+																			  <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/argentina.png">&nbsp; Argentina</span>
+                                                </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                               <ul>
+                            											<li>Universidad Nacional Entrerios.</li>
+                            											<li>Sociedad Argentina de Psicotrauma.</li>
+                            											<li>Universidad Juan Agustín Maza.</li>
+                            											<li>Universidad Nacional de Villa María.</li>
+                            											<li>Universidad Museo Social Argentino</li>
+                            											<li>Universidad Nacional de La Plata</li>
+                            											<li>Universidad Nacional del Aconcagua.</li>
+                        											 </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- &&& ABRE ROW &&& -->
+                            <!-- &&& CIERRA ROW &&& -->
+                        </div>
+                        <!-- %%%%%%% PILL 2 %%%%%%% -->
+                        <div class="tab-pane" id="euroasia" style="text-align: justify;">
+                            <p></p>
+                            <div class="carousel_wrapper">
+                                <div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+
+                                    <div class="carousel-inner mapaResponsive">
+                                        <div class="item active carousel-fade" id="item1">
+
+                                            <img class="lazyload" src="imgs/europa.png" alt="" width="1150" height="600" frameborder="0" usemap="#map_2" border="0" />
+                                            <map name="map_2">
+                                                <!-- 12. PORTUGAL-->
+                                                <area shape="rect" coords="153,285,200,332" href="#;" data-toggle="modal" data-target="#modal_12" alt="Instrucciones" />
+                                                <!-- 13.ESPAÑA -->
+                                                <area shape="rect" coords="202,261,249,308" href="#;" data-toggle="modal" data-target="#modal_13" alt="Instrucciones" />
+                                                <!-- 14. ITALIA -->
+                                                <area shape="rect" coords="270,276,317,323" href="#;" data-toggle="modal" data-target="#modal_14" alt="Instrucciones" />
+                                                <!-- 15. PALESTINA -->
+                                                <area shape="rect" coords="382,318,429,365" href="#;" data-toggle="modal" data-target="#modal_15" alt="Instrucciones" />
+                                                <!-- 16. CHINA -->
+                                                <area shape="rect" coords="691,307,742,354" href="#;" data-toggle="modal" data-target="#modal_16" alt="Instrucciones" />
+                                                <!-- 17. RUSIA -->
+                                                <area shape="rect" coords="780,83,827,130" href="#;" data-toggle="modal" data-target="#modal_17" alt="Instrucciones" />
+                                            </map>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p></p>
+                                <div class="acoresponsive">
+                                    <ul id="accordion">
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/potugal.png">&nbsp; Portugal</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <div style="margin-left:20px;">
+																									 <ul>
+																										 <li>Fundación Escuela de Formación Avanzada.</li>
+                          
+                        													 </ul>
+																							   </div>
+
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/espana.png">&nbsp; España</span>
+                                                   </p>
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <div style="margin-left:20px;">
+                        													<ul>
+                            												<li>Instituto Europeo de Diseño - IED.</li>
+																										<li>Escuela Universitaria de Diseño, Innovación y Tecnología - ESNE ESDEN.</li>
+																										<li>Bussiness School Universidad Católica San Antonio de Murcia.</li>
+																										<li>Centro de Investigaciones Energéticas, Medioambientales Y Tecnológicas.</li>
+													  												<li>Universidad de la Curuña.</li>
+																										<li>Universidad de la Curuña (Convenio Especifico).</li>
+                          													<li>Universidad Autónomoa de Barcelona.</li>
+													 													<li>Universidad Internacional de la Rioja (Convenio Marco).</li>
+																										<li>Universidad Internacional de la Rioja (Convenio Específico).</li>
+																										<li>Universidad de Alcala</li>
+																										<li>Universidad Castilla la Mancha</li>
+																										<li>Universidad Nacional a Distancia UNED (Convenio Marco).</li>
+																										<li>Universidad Nacional a Distancia UNED (Convenio Específico).</li>
+																										<li>Instituto de Investigaciones Ecológicas.</li>
+																										<li>Colegio Oficial de Psicólogos.</li>
+																										<li>Asociación Universitaria Iberoamericana de Postgrado - AUIP.</li>
+																										<li>Asociación Española de Fisioterapeutas.</li>
+																										<li>Instituto Gelenen de Psicoterapia.</li>
+																										<li>Organización Iberoamericana de Seguridad Social - OISS.</li>
+																										<li>Universidad de Huelva.</li>
+																										<li>Centro de Ergonomía Aplicada - CENEA.</li>
+																										<li>Universidad a Distancia de Madrid.</li>
+																										<li>Universidad de Extremadura.</li>
+																									</ul>
+                    														</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/italia.png">&nbsp; Italia</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                <div style="margin-left:20px;">
+																									<ul>
+                            												<li>Universita Telematica Guglielmo Marconi.</li>
+                          													<li>Universidad de Parma.</li>
+																										<li>Universidad de la Calabria.</li>
+																									</ul>
+                    														</div>
+                                            </div>
+                                        </li>
+																				<li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/palestina.png">&nbsp; Palestina</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                               <div style="margin-left:20px;">
+                        												<ul>
+                            											<li>Birzeit University.</li>
+                          	
+                        												</ul>
+                    													 </div>
+                                            </div>
+                                        </li>
+																				<li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/china.png">&nbsp; China</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <div style="margin-left:20px;">
+                        													<ul>
+																										<li>Universidad de Medicina Tradicional China de Henan - UMTCH.</li>
+                          	
+                        													</ul>
+                    														 </div>
+                                            </div>
+                                        </li>
+																			  <li>
+                                            <div class="nombre_formula">
+                                                <p><span class="pasoespf"><img src="imgs/rusia.png">&nbsp; Rusia</span>
+                                                    
+                                                <a class="arrow" href="#"></a>
+                                            </div>
+                                            <div class="formula">
+                                                 <div style="margin-left:20px;">
+                        													<ul>
+                            												<li>Universidad Politécnica Estatal de San Petersburgo.</li>
+                          	
+                        													</ul>
+                    														 </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- %%%%%%% PILL 3 %%%%%%% -->
+                        <!-- %%%%%%% PILL 4 %%%%%%% -->
+                        <!-- %%%%%%% PILL 5 %%%%%%% -->
+                        <!-- %%%%%%% PILL 6 %%%%%%% -->
+                        <!-- <div class="tab-pane" id="bibliografia" style="text-align: justify;">
+                            <!-- &&& INICIA PDF &&& -->
+                        <!--<div style="text-align: center;" class="resourcepdf">
+                                <object title="bibliografia_modulo1.pdf" data="docs/manejodelaimagen_bibliografia.pdf" height="600" width="98%"><a href="docs/manejodelaimagen_bibliografia.pdf">Ver archivo PDF</a></object>
+                            </div>
+                            <!-- &&& FIN PDF &&& -->
+                        <!--</div>-->
+                        <!-- %%%%%%% FIN PILLS %%%%%%% -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********CANADA************-->
+    <div class="modal fade" id="modal_1" tabindex="-1" role="dialog" aria-labelledby="modal_1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/canada.png"> <b>CANADÁ</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px">
+                        <ul>
+                            <li>Universidad de Sherbrooke.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN CANADA************-->
+    <!--***********EE.UU************-->
+    <div class="modal fade" id="modal_2" tabindex="-1" role="dialog" aria-labelledby="modal_2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/USA.png"> <b>EE.UU</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px">
+                        <ul>
+                            <li>Health Science Center at San Antonio, University of Texas.</li>
+                            <li> Atlantic International University of Honolulu.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN EE.UU************-->
+    <!--***********MEXICO************-->
+    <div class="modal fade" id="modal_3" tabindex="-1" role="dialog" aria-labelledby="modal_3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/mexico.png"> <b> MEXICO </b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px">
+                        <ul>
+                            <li>Universidad Nacional Autónoma de México.</li>
+                            <li>Universidad Nacional Autónoma de México (Convenio Específico).</li>
+                            <li>Universidad Pedagógica de Durango.</li>
+                            <li>Universidad de León.</li>
+                            <li>Universidad Autónoma de Aguas Calientes.</li>
+                            <li>Escuela de Arte y Moda de Bajio - EAMODA.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN MEXICO************-->
+    <!--***********SAN VICENTE Y LAS GRANADINAS************-->
+    <div class="modal fade" id="modal_4" tabindex="-1" role="dialog" aria-labelledby="modal_4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/sanVicente.png"> <b>SAN VICENTE Y LAS GRANADINAS</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px">
+                        <ul>
+                            <li>Richmond Vale Academy.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN SAN VICENTE Y LAS GRANADINAS************-->
+    <!--***********COSTA RICA************-->
+    <div class="modal fade" id="modal_5" tabindex="-1" role="dialog" aria-labelledby="modal_5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/Costarica.png"> <b>COSTA RICA</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px">
+                        <ul>
+                            <li>Universidad Santa Paula.</li>
+                            <li>Earth University.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN COSTA RICA************-->
+    <!--***********VENEZUELA************-->
+    <div class="modal fade" id="modal_6" tabindex="-1" role="dialog" aria-labelledby="modal_6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/venezuela.png"> <b>VENEZUELA</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad de los Andes.</li>
+                            <li>Universidad Arturo Michelena.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN VENEZUELA************-->
+    <!--***********PERU************-->
+    <div class="modal fade" id="modal_7" tabindex="-1" role="dialog" aria-labelledby="modal_7" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/peru.png"> <b>PERÚ</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad Nacional de Trujillo.</li>
+                            <li>Centro de Altos Estudios de la Moda - CEAM.</li>
+                            <li> Universidad Católica Sedes Sapientiae.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN PERU************-->
+    <!--***********BRASIL************-->
+    <div class="modal fade" id="modal_8" tabindex="-1" role="dialog" aria-labelledby="modal_8" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/brasil.png"> <b>BRASIL</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Escuela de Ingeniería "San Carlos" de la Universidad de Sao Paulo.</li>
+                            <li>Universidad Federal de Minas Gerais.</li>
+                            <li>Instituto Euroamericano de Educación y Motricidad Humana.</li>
+                            <li>Universidad Estatal de Campinas.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN BRASIL************-->
+    <!--***********PARAGUAY************-->
+    <div class="modal fade" id="modal_9" tabindex="-1" role="dialog" aria-labelledby="modal_9" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/paraguay.png"> <b>PARAGUAY</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad de la Integración de las Américas.</li>
+                            <li>Universidad de la Integración de las Américas (Convenio Específico).</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN PARAGUAY************-->
+    <!--***********CHILE************-->
+    <div class="modal fade" id="modal_10" tabindex="-1" role="dialog" aria-labelledby="modal_10" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/chile.png"> <b>CHILE</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad Bolivariana de Chile.</li>
+                            <li>Universidad de Valparaiso.</li>
+                            <li>Universidad Bernardo O`Higgins.</li>
+                            <li>Universidad Bernardo O`Higgins (Convenio Específico).</li>
+                            <li>Universidad Central de Chile.</li>
+                            <li>Universidad Andrés Bello.</li>
+                            <li>Pontifica Universidad Católica de Valparaiso.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN CHILE************-->
+    <!--***********ARGENTINA************-->
+    <div class="modal fade" id="modal_11" tabindex="-1" role="dialog" aria-labelledby="modal_11" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/argentina.png"> <b>ARGENTINA</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad Nacional Entrerios.</li>
+                            <li>Sociedad Argentina de Psicotrauma.</li>
+                            <li>Universidad Juan Agustín Maza.</li>
+                            <li>Universidad Nacional de Villa María.</li>
+                            <li>Universidad Museo Social Argentino</li>
+                            <li>Universidad Nacional de La Plata</li>
+                            <li>Universidad Nacional del Aconcagua.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN ARGENTINA************-->
+    <!--*************** EUROPA Y ASIA ********************-->
+    <!--***********PORTUGAL************-->
+    <div class="modal fade" id="modal_12" tabindex="-1" role="dialog" aria-labelledby="modal_12" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/potugal.png"> <b>PORTUGAL</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Fundación Escuela de Formación Avanzada.</li>
+                          
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN PORTUGAL************-->
+    <!--***********ESPAÑA************-->
+    <div class="modal fade" id="modal_13" tabindex="-1" role="dialog" aria-labelledby="modal_13" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/espana.png"> <b>ESPAÑA</b>
+                </div>
+                <div class="modal-body">
+                       <div style="margin-left:20px;">
+                        <ul>
+                            <li>Instituto Europeo de Diseño - IED.</li>
+														<li>Escuela Universitaria de Diseño, Innovación y Tecnología - ESNE ESDEN.</li>
+														<li>Bussiness School Universidad Católica San Antonio de Murcia.</li>
+														<li>Centro de Investigaciones Energéticas, Medioambientales Y Tecnológicas.</li>
+													  <li>Universidad de la Curuña.</li>
+														<li>Universidad de la Curuña (Convenio Especifico).</li>
+                          	<li>Universidad Autónomoa de Barcelona.</li>
+													 	<li>Universidad Internacional de la Rioja (Convenio Marco).</li>
+														<li>Universidad Internacional de la Rioja (Convenio Específico).</li>
+														<li>Universidad de Alcala</li>
+														<li>Universidad Castilla la Mancha</li>
+														<li>Universidad Nacional a Distancia UNED (Convenio Marco).</li>
+														<li>Universidad Nacional a Distancia UNED (Convenio Específico).</li>
+														<li>Instituto de Investigaciones Ecológicas.</li>
+														<li>Colegio Oficial de Psicólogos.</li>
+														<li>Asociación Universitaria Iberoamericana de Postgrado - AUIP.</li>
+														<li>Asociación Española de Fisioterapeutas.</li>
+														<li>Instituto Gelenen de Psicoterapia.</li>
+														<li>Organización Iberoamericana de Seguridad Social - OISS.</li>
+														<li>Universidad de Huelva.</li>
+														<li>Centro de Ergonomía Aplicada - CENEA.</li>
+														<li>Universidad a Distancia de Madrid.</li>
+														<li>Universidad de Extremadura.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN ESPAÑA************-->
+    <!--***********ITALIA************-->
+    <div class="modal fade" id="modal_14" tabindex="-1" role="dialog" aria-labelledby="modal_14" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/italia.png"> <b>ITALIA</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universita Telematica Guglielmo Marconi.</li>
+                          	<li>Universidad de Parma.</li>
+														<li>Universidad de la Calabria.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN ITALIA************-->
+    <!--***********PALESTINA************-->
+    <div class="modal fade" id="modal_15" tabindex="-1" role="dialog" aria-labelledby="modal_15" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/palestina.png"> <b>PALESTINA</b>
+                </div>
+                <div class="modal-body">
+                     <div style="margin-left:20px;">
+                        <ul>
+                            <li>Birzeit University.</li>
+                          	
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN PALESTINA************-->
+    <!--***********CHINA************-->
+    <div class="modal fade" id="modal_16" tabindex="-1" role="dialog" aria-labelledby="modal_16" aria-hidden="true" style="padding-right:0 !important">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/china.png"> <b>CHINA</b>
+                </div>
+                <div class="modal-body">
+                    <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad de Medicina Tradicional China de Henan - UMTCH.</li>
+                          	
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN CHINA************-->
+    <!--***********RUSIA************-->
+    <div class="modal fade" id="modal_17" tabindex="-1" role="dialog" aria-labelledby="modal_17" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <img src="imgs/rusia.png"> <b>RUSIA</b>
+                </div>
+                <div class="modal-body">
+                     <div style="margin-left:20px;">
+                        <ul>
+                            <li>Universidad Politécnica Estatal de San Petersburgo.</li>
+                          	
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--***********FIN RUSIA************-->
+    <p></p>
+    <!-- %%%%%%% BOTONES FINALES SENCILLO %%%%%%% -->
+    <!-- FIN CONTENIDO -->
+    <script src="_/js/main.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>

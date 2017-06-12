@@ -1,0 +1,320 @@
+/* Colores *
+#dddddd Gris Claro
+#015A82 Color Oscuro
+#0084B2 Color Clarito 20%
+#DDFFFF Color Lavado 80%
+*/
+
+@media (min-width:480px) and (max-width:992px) {
+    .collapse {
+        display: none !important
+    }
+}
+
+body {
+	  overflow-x: hidden;
+    background-color: transparent
+}
+
+p {
+    text-align: justify
+}
+
+ul .li {
+    text-align: justify
+}
+
+h4 {
+    color: #015A82
+}
+
+h5 {
+    color: #015A82
+}
+
+.title {
+    color: #015A82;
+    font-weight: bold;
+    font-size: 1.5em
+}
+
+.resalte1 {
+    color: #015A82
+}
+
+.resalte2 {
+    color: #015A82;
+    font-weight: bold
+}
+
+hr {
+    height: 1px;
+    color: #015A82;
+    background-color: #015A82;
+    border: none
+}
+
+.docente {
+    margin: 0px 0px 0px 12px
+}
+
+.banner-wrapper {
+    border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    background-color: transparent
+}
+
+.tab-wrapper {
+    margin: 0% 0% 0 0%;
+    align-content: center
+}
+
+.carousel-wrapper {
+    margin: 0% 0% 0 0%;
+    align-content: center
+}
+
+.menu-wrapper {
+    margin: 0% 0% 0 0%;
+    margin-top: 5px
+}
+
+.tab-content.content-1 {
+    margin: 0% 0% 0 0%;
+    padding-right: 1px;
+    width: 100%
+}
+
+.tab-content.content-2 {
+    padding-left: 0px;
+    margin-top: -5px
+}
+
+.nav-pills.dos-lineas {
+    border-top: 5px solid #015A82 !important;
+    border-bottom: 5px solid #015A82 !important;
+    margin-bottom: -5px;
+    background: #fff;
+    background: -moz-linear-gradient(top, #fff 0%, #c6c6c6 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(99%, #c6c6c6));
+    background: -webkit-linear-gradient(top, #fff 0%, #c6c6c6 99%);
+    background: -o-linear-gradient(top, #fff 0%, #c6c6c6 99%);
+    background: -ms-linear-gradient(top, #fff 0%, #c6c6c6 99%);
+    background: linear-gradient(to bottom, #fff 0%, #c6c6c6 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#c6c6c6', GradientType=0)
+}
+
+.nav-pills.dos-lineas >li {
+    vertical-align: top;
+    width: 49.5%
+}
+
+.nav-pills.dos-lineas >li >a {
+    border-radius: 0px !important;
+    color: #000 !important;
+    font-size: 0.9em;
+    height: 60px;
+    width: 100%;
+    display: table;
+    padding: 4px
+}
+
+.nav-pills.dos-lineas >li >a div {
+    display: table-cell;
+    vertical-align: middle !important
+}
+
+.nav-pills.dos-lineas >li >a:hover {
+    background-color: #0084B2;
+    color: #fff !important
+}
+
+.nav-pills.dos-lineas >li.active >a {
+    background-color: #015A82 !important;
+    color: #fff !important
+}
+
+.nav-pills >li >a#obje,
+.nav-pills >li.active >a#obje:active {
+    line-height: 1.6
+}
+
+.nav-pills >li >#obje >.text-center >span {
+    padding-top: 2px;
+    padding-bottom: 4px
+}
+
+.nav-pills >li >a#meto,
+.nav-pills >li.active >a#meto:active {
+    line-height: 1.2
+}
+
+.nav-pills >li >#meto >.text-center >span {
+    padding-bottom: 3px
+}
+
+.tab-pane {
+    padding: 10px;
+    margin-top: 5px;
+    background: #fff;
+    height: auto;
+    border-radius: 0px 0px 7px 7px;
+    -moz-border-radius: 0px 0px 7px 7px;
+    -webkit-border-radius: 0px 0px 7px 7px;
+    border: #015A82 1px solid
+}
+
+.tab-pane.active#presentacion {
+    background: #fff;
+    !important
+}
+
+.tab-pane.active#lectura {}
+
+.tab-pane.active#actividades {
+    background: #fff;
+    !important
+}
+
+.tab-pane.active#recursos {
+    background: #fff;
+    !important
+}
+
+.full-width-tabs >ul.nav.nav-tabs {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.full-width-tabs >ul.nav.nav-tabs >li {
+    float: none;
+    display: table-cell
+}
+
+.full-width-tabs >ul.nav.nav-tabs >li >a {
+    text-align: center
+}
+
+.item {
+    background: white;
+    text-align: center;
+    height: auto !important
+}
+
+.item img {
+    margin: auto;
+    max-width: 100%;
+    overflow: hidden
+}
+
+.modal {
+    height: 100%;
+    width: 100%;
+	  padding: 5%
+}
+
+.modal .modal-dialog {
+    top: 5%;
+    width: 100%
+}
+
+.modal-dialog .modal-content {
+    width: 100%;
+    overflow: hidden;
+    margin: auto
+}
+
+.modal-dialog .modal-content .modal-body {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto
+}
+
+.modal-iframe {
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    vertical-align: top
+}
+
+.video-iframe {
+    overflow: hidden;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: top
+}
+
+.acoresponsive{
+		display:none;
+	}
+
+@media screen and (max-width:689px) {
+    .modal {
+        top: 5%;
+        height: auto;
+        width: 100%
+    }
+    .modal-dialog .modal-content .modal-body {
+        width: 100%;
+        height: 74%;
+        overflow: hidden;
+        margin: auto
+    }
+	.acoresponsive{
+		display:none;
+	}
+}
+
+@media screen and (max-width:624px) {
+    .nav-pills.dos-lineas >li {
+        vertical-align: top;
+        width: 49%
+    }
+    .modal {
+        top: 5%;
+        height: auto;
+        width: 100%
+    }
+    .modal-dialog .modal-content .modal-body {
+        width: 100%;
+        height: 74%;
+        overflow: hidden;
+        margin: auto
+    }
+		.acoresponsive{
+		display:none;
+	}
+}
+
+@media screen and (max-width:480px) {
+    .nav-pills.dos-lineas >li {
+        vertical-align: top;
+        width: 49%
+    }
+    .nav-pills.dos-lineas >li >a {
+        font-size: 0.7em
+    }
+    .modal {
+        top: 5%;
+        height: auto;
+        width: 100%
+    }
+    .modal-dialog .modal-content .modal-body {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: auto
+    }
+	  .acoresponsive{
+		display:block;
+	}
+	.mapaResponsive{
+		display: none;
+	}
+}
+
